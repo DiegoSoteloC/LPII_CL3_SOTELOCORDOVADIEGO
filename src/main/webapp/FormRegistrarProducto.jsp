@@ -8,5 +8,42 @@
 </head>
 <body>
 
+<h1 align="center">Registrar Producto</h1>
+<form action="ControladorProducto" method="post">
+
+<table align="center" border="2">
+<tr>
+<td>Nombre</td>
+<td><input type="text" name="nombre"></td>
+</tr>
+
+<tr>
+<td>Precio de Venta</td>
+<td><input type="text" name="precioventa"></td>
+</tr>
+
+<tr>
+<td>Precio de Compra</td>
+<td><input type="text" name="preciocompra"></td>
+</tr>
+
+<tr>
+<td>Estado</td>
+<td><input type="text" name="estado"></td>
+</tr>
+
+<tr>
+<td>Descripcion</td>
+<td><input type="text" name="descripcion"></td>
+</tr>
+
+<tr>
+<td colspan="2"  align="center" >
+<input type="submit" value="Registrar Producto">
+</td>
+</tr>
+</table>
+</form>
+
 </body>
 </html>
